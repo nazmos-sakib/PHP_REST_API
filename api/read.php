@@ -2,7 +2,7 @@
 	
 	//headers
 	header('Access-Conteol-Allow-Origin: *');
-	header('Control-Type: application/json');
+	header('Content-Type: application/json');
 
 	//initializing our api
 	include_once('../core/initialize.php');

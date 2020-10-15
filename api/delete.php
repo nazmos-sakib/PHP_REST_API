@@ -3,7 +3,7 @@
 	//headers
 	header('Access-Conteol-Allow-Origin: *');
 	header('Access-Conteol-Allow-Methods: DELETE');
-	header('Control-Type: application/json');
+	header('Content-Type: application/json');
 	header('Access-Conteol-Allow-Headers: Access-Conteol-Allow-Headers, Control-Type, Access-Conteol-Allow-Methods, Authorization, X-Requested-With');
 
 	//initializing our api
