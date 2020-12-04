@@ -1,7 +1,7 @@
 <?php 
 	
 	//headers
-	header('Access-Conteol-Allow-Origin: *');
+	header('Access-Control-Allow-Origin: *');
 	header('Content-Type: application/json');
 
 	//initializing our api

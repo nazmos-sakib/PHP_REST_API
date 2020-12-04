@@ -1,10 +1,10 @@
 <?php 
 	
 	//headers
-	header('Access-Conteol-Allow-Origin: *');
-	header('Access-Conteol-Allow-Methods: DELETE');
+	header('Access-Control-Allow-Origin: *');
+	header('Access-Control-Allow-Methods: DELETE');
 	header('Content-Type: application/json');
-	header('Access-Conteol-Allow-Headers: Access-Conteol-Allow-Headers, Control-Type, Access-Conteol-Allow-Methods, Authorization, X-Requested-With');
+	header('Access-Control-Allow-Headers: Access-Control-Allow-Headers, Content-Type, Access-Control-Allow-Methods, Authorization, X-Requested-With');
 
 	//initializing our api
 	include_once('../core/initialize.php');
